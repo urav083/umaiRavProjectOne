@@ -1129,6 +1129,17 @@ header {
   margin-bottom: 20px;
   width: 1110px;
   padding: 5px 10px 10px 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  color: rgba(51, 51, 51, 0.6);
+}
+.userComments ul li .commentText span {
+  font-weight: 700;
+  color: #276107;
+}
+.userComments ul li .commentText .commentTextAuthor {
+  font-weight: 700;
+  color: #333333;
 }
 
 .blogPageComment h2 {
