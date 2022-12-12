@@ -1,0 +1,61 @@
+.sectionThree {
+    background-image: url(../assets/home-4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    .sectionThreeDivOne {
+        padding-top: 10%;
+        ul {
+            margin-left: 20%;
+            margin-top: 80px;
+            width: 85%;
+            display: flex;
+            justify-content: right;
+            flex-wrap: wrap;
+            li {
+                flex-basis: 33%;
+                margin-left: 45px;
+                margin-bottom: 40px;
+                display: flex;
+                .icon {
+                    margin: 0 20px;
+                    i {
+                        border: #333333 2px solid;
+                        border-radius: 50%;
+                        height: 40px;
+                        width: 40px;
+                        text-align: center;
+                        vertical-align: bottom;
+                        display: inline-block;
+                        line-height: 38px;
+                        font-size: 1.4rem;
+                    }
+                }
+                .featureItemText {
+                    display: flex;
+                    flex-direction: column;
+                    h3 {
+                        text-transform: uppercase;
+                        font-family: 'Montserrat', sans-serif;
+                        text-transform: uppercase;
+                        font-size: 1.8rem;
+                        line-height: 24px;
+                        letter-spacing: 1.8px;
+                        color: rgba($color: #333333, $alpha: 1.0);
+                        position: relative;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                    }
+                    p {
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 1rem;
+                        line-height: 2rem;
+                        letter-spacing: 0.3px;
+                        color: rgba($color: #333333, $alpha: 0.6);
+                    }
+                }
+            }
+        }
+    }
+}
