@@ -1,3 +1,5 @@
+// javascript code tutorial from (https://blog.logrocket.com/build-image-carousel-from-scratch-vanilla-javascript/)
+
 "use strict";
 // Select all slides
 const slides = document.querySelectorAll(".slide");
