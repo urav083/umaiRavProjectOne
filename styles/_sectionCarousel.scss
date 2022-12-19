@@ -1,0 +1,63 @@
+.sectionTwoPartTwo {
+    height: 85vh;
+    display: grid;
+    place-items: center;
+    position: relative;
+    .wrapper2 {
+        display: flex;
+        justify-content: center;
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.4rem;
+            line-height: 24px;
+            letter-spacing: 0.3px;
+            color: rgba($color: #333333, $alpha: 0.8);
+            text-align: center;
+        }
+    }
+    .slider {
+        margin-top: 55px;
+        width: 100%;
+        max-width: 350px;
+        height: 350px;
+        position: relative;
+        overflow: hidden;
+        .slide {
+            width: 100%;
+            max-width: 800px;
+            height: 350px;
+            position: absolute;
+            transition: all 0.5s;
+            border-radius: 50%;
+            img {
+                border-radius: 50%;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    .btn {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        border: none;
+        border-radius: 50%;
+        z-index: 10px;
+        cursor: pointer;
+        background-color: #fff;
+        font-size: 4rem;
+    }
+    .btn:active {
+        transform: scale(1.1);
+    }
+    .btn-prev {
+        top: 45%;
+        left: 15%;
+    }
+    .btn-next {
+        top: 45%;
+        right: 15%;
+    }
+}
