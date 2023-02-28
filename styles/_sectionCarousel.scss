@@ -61,3 +61,21 @@
         right: 15%;
     }
 }
+
+@media (max-width: 480px) {
+    .sectionTwoPartTwo .btn-next {
+        top: 55%;
+        right: 15%;
+    }
+    .sectionTwoPartTwo .btn-prev {
+        top: 55%;
+        right: 15%;
+    }
+}
+
+@media (max-width: 800px) {
+    .sectionTwoPartTwo  {
+        height: 85vh;
+    }
+
+}
