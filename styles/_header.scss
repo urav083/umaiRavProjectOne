@@ -28,6 +28,7 @@ header {
     background-image: url(../assets/contact-1.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
+
     h2 {
         text-transform: uppercase;
         font-family: 'Montserrat', sans-serif;
@@ -49,15 +50,18 @@ header {
         letter-spacing: 1.8px;
         color: black;
     }
+
     p {
         font-family: 'Open Sans', sans-serif;
         font-size: 1rem;
         letter-spacing: 0.3px;
         color: rgba($color: #333333, $alpha: 0.6);
     }
+
     ul {
         display: flex;
         justify-content: space-around;
+
         li {
             height: 300px;
             display: flex;
@@ -65,6 +69,7 @@ header {
             justify-content: center;
             padding-left: 40px;
             padding-right: 40px;
+
             h3 {
                 text-transform: uppercase;
                 font-family: 'Montserrat', sans-serif;
@@ -73,10 +78,12 @@ header {
                 letter-spacing: 1.8px;
                 color: black;
             }
+
             i {
                 font-size: 4rem;
             }
         }
+
         .middleBorder {
             border-left: #333333 2px solid;
             border-right: #333333 2px solid;
@@ -96,21 +103,83 @@ header {
     justify-content: space-evenly;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    height: 100px;
+
     ul {
         display: flex;
         margin: 20px;
         font-size: 1.4rem;
+
         li {
             margin: 20px 15px;
+
             a:hover {
                 text-decoration: line-through;
             }
         }
     }
+
     h1 {
         font-weight: bold;
         font-size: 3.7rem;
         color: #333333;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        height: 80vh;
+    }
+    .headerElement {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        ul {
+            // display: flex;
+            // margin: 20px;
+            // font-size: 1.4rem;
+            // justify-content: center;
+            li {
+                margin: 20px 15px;
+                a:hover {
+                    text-decoration: line-through;
+                }
+            }
+        }
+        h1 {
+            text-align: center;
+            font-size: 3.4rem;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        height: 80vh;
+    }
+
+    .headerElement {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        ul {
+            display: flex;
+            margin: 20px;
+            font-size: 1.4rem;
+            justify-content: center;
+
+            li {
+                margin: 20px 15px;
+
+                a:hover {
+                    text-decoration: line-through;
+                }
+            }
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3.4rem;
+        }
     }
 }
