@@ -505,6 +505,7 @@ header {
 }
 .sectionOne {
   background-color: #C3DAB7;
+  min-height: 75vh;
 }
 
 .sectionOneDivOne {
@@ -829,7 +830,30 @@ header {
 }
 @media (max-width: 800px) {
   .sectionTwoPartTwo {
-    height: 85vh;
+    height: auto;
+  }
+  .sectionTwoPartTwo .btn {
+    position: relative;
+  }
+  .carouselButtons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .carouselButtons .btn-next {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-left: 35%;
+  }
+  .carouselButtons .btn-prev {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-right: 35%;
   }
 }
 .sectionThree {
@@ -1070,6 +1094,16 @@ header {
             justify-content: center;
   }
 }
+@media (max-width: 1000px) {
+  .sectionFour h2 {
+    margin: 45px;
+  }
+  .sectionFourLineOne {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .sectionFive {
   background-color: #C3DAB7;
   display: -webkit-box;
@@ -1116,7 +1150,7 @@ header {
 .sectionFive .dropUsALine .viewPortfolio {
   text-transform: uppercase;
   height: 45px;
-  width: 180px;
+  width: 195px;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1482,6 +1516,86 @@ header {
     text-align: center;
     font-weight: 400;
     vertical-align: middle;
+  }
+}
+@media (max-width: 800px) {
+  .sectionSixDiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .sectionSixDiv .contactUs nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 20px;
+  }
+  .sectionSixDiv .recentPosts h3 {
+    text-align: center;
+  }
+  .sectionSixDiv .recentPosts ul {
+    list-style-type: square;
+  }
+  .sectionSixDiv .recentPosts ul li {
+    line-height: 2.4rem;
+  }
+  .sectionSixDiv .twitterWidget {
+    text-align: right;
+  }
+  .sectionSixDiv .twitterWidget h3 {
+    text-align: right;
+  }
+  .sectionSixDiv .twitterWidget form {
+    padding: 0;
+    position: relative;
+  }
+  .sectionSixDiv .twitterWidget form label {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0.3px;
+    margin-bottom: 25px;
+  }
+  .sectionSixDiv .twitterWidget form input {
+    margin: 0;
+    padding: 8px;
+    border: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    height: 30px;
+    text-align: left;
+    margin-right: 30px;
+  }
+  .sectionSixDiv .twitterWidget form button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: #C3DAB7;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 0px;
+  }
+  .sectionSixDiv .twitterWidget form button i {
+    color: #333333;
   }
 }
 .contactUsPageContactDetails form,

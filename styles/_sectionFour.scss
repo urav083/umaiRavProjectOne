@@ -68,4 +68,14 @@
         justify-content: center;
     }
 }
+@media (max-width: 1000px) {
+    .sectionFour {
+        h2 {
+            margin: 45px;
+        }
+    }
+    .sectionFourLineOne {
+        justify-content: center;
+    }
+}
 

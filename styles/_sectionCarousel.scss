@@ -3,9 +3,11 @@
     display: grid;
     place-items: center;
     position: relative;
+
     .wrapper2 {
         display: flex;
         justify-content: center;
+
         p {
             font-family: 'Open Sans', sans-serif;
             font-size: 1.4rem;
@@ -15,6 +17,7 @@
             text-align: center;
         }
     }
+
     .slider {
         margin-top: 55px;
         width: 100%;
@@ -22,6 +25,7 @@
         height: 350px;
         position: relative;
         overflow: hidden;
+
         .slide {
             width: 100%;
             max-width: 800px;
@@ -29,6 +33,7 @@
             position: absolute;
             transition: all 0.5s;
             border-radius: 50%;
+
             img {
                 border-radius: 50%;
                 width: 100%;
@@ -37,6 +42,7 @@
             }
         }
     }
+
     .btn {
         position: absolute;
         width: 40px;
@@ -49,13 +55,16 @@
         background-color: #fff;
         font-size: 4rem;
     }
+
     .btn:active {
         transform: scale(1.1);
     }
+
     .btn-prev {
         top: 45%;
         left: 15%;
     }
+
     .btn-next {
         top: 45%;
         right: 15%;
@@ -67,6 +76,7 @@
         top: 55%;
         right: 15%;
     }
+
     .sectionTwoPartTwo .btn-prev {
         top: 55%;
         right: 15%;
@@ -74,8 +84,23 @@
 }
 
 @media (max-width: 800px) {
-    .sectionTwoPartTwo  {
-        height: 85vh;
+    .sectionTwoPartTwo {
+        height: auto;
     }
 
+    .sectionTwoPartTwo .btn {
+        position: relative;
+    }
+.carouselButtons {
+    display: flex;
+    justify-content: center;
+    .btn-next {
+        order: 2;
+        margin-left: 35%;
+    }
+    .btn-prev {
+        order: 1;
+        margin-right: 35%;
+    }
+}
 }
