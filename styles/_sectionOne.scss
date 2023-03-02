@@ -1,17 +1,15 @@
 .sectionOne {
     background-color: #C3DAB7;
-    height: 85vh;
+    // height: 85vh;
 }
 
 .sectionOneDivOne {
     display: flex;
     justify-content: center;
     position: relative;
-
     img {
         margin-top: 12.5%;
     }
-
     .textCircle {
         margin: 0;
         position: absolute;
@@ -19,7 +17,6 @@
         left: 20%;
         width: auto;
     }
-
     .vl {
         position: absolute;
         border-left: rgba($color: #333333, $alpha: 0.3) 2px solid;
@@ -31,18 +28,17 @@
 .sectionOneDivTwo {
     display: flex;
     justify-content: center;
-
     ul {
         display: flex;
         width: 100%;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 2%;
         justify-content: center;
         color: #333333;
 
         li {
-            margin-left: 30px;
-            margin-right: 30px;
+            margin-left: 2%;
+            margin-right: 2%;
             max-width: 30%;
         }
 
@@ -64,9 +60,9 @@
 }
 
 @media (max-width: 480px) {
-    .sectionOne {
-        height: 65vh;
-    }
+    // .sectionOne {
+    //     height: 65vh;
+    // }
 
     .sectionOneDivOne {
         img {
@@ -129,7 +125,7 @@
 
 @media (max-width: 800px) {
     .sectionOne {
-        height: 75vh;
+        height: auto;
     }
 
     .sectionOneDivOne {
