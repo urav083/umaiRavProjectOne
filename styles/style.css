@@ -1563,6 +1563,14 @@ header {
   .contactUsPageBanner h2 {
     font-size: 4rem;
     padding-top: 150px;
+    width: 100%;
+    text-align: center;
+  }
+  .contactUsPageContactDetails h2 {
+    text-align: center;
+  }
+  .contactUsPageContactDetails p {
+    text-align: center;
   }
   .contactUsPageContactDetails ul {
     -webkit-box-pack: center;
@@ -1593,6 +1601,28 @@ header {
         -ms-flex-align: center;
             align-items: center;
     height: auto;
+  }
+  .contactUsPageContactDetails form button,
+  .blogPageComment form button {
+    width: 100%;
+    margin-bottom: 20%;
+  }
+  .contactUsPageBottomBanner {
+    background-size: contain;
+    height: 50vh;
+  }
+  .contactUsPageContactDetails form .inputMessage,
+  .blogPageComment form .inputMessage {
+    margin-top: 75px;
+  }
+  .contactUsPageContactDetails form,
+  .blogPageComment form {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .contactUsPageBottomBanner {
+    height: 35vh;
   }
 }
 .blogTitle h2 {
