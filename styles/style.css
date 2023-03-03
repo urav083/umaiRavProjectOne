@@ -1723,3 +1723,53 @@ header {
   font-weight: 700;
   color: black;
 }
+
+@media (max-width: 800px) {
+  .headerBlog {
+    background-size: contain;
+    height: 80vh;
+  }
+  .relatedPosts ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .relatedPosts ul img {
+    width: 100%;
+  }
+  .userComments ul li .commentText {
+    height: auto;
+  }
+}
+@media (max-width: 450px) {
+  .headerBlog {
+    height: 60vh;
+  }
+  .blogTitle h2 {
+    font-size: 5rem;
+  }
+  .blogAuthor .blog2 {
+    padding-left: 10px;
+    width: auto;
+  }
+  .blogAuthor .blog3 {
+    padding-left: 10px;
+    width: auto;
+  }
+  .blogAuthor .blog4 {
+    padding-left: 10px;
+    width: auto;
+  }
+  .blogAuthor .blog5 {
+    padding-left: 10px;
+    width: auto;
+  }
+  .blogAuthor {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
