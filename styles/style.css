@@ -1283,6 +1283,8 @@ header {
   }
   .sectionFive .dropUsALine h2 {
     text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
   }
   .sectionFive .dropUsALine p {
     width: 85%;
@@ -1547,6 +1549,9 @@ header {
   }
   .sectionThree .sectionThreeDivOne ul li .featureItemText p {
     text-align: center;
+  }
+  .empty {
+    height: 40px;
   }
 }
 .contactUsPageContactDetails form,
