@@ -5,6 +5,7 @@
         justify-content: space-between;
         margin-top: 100px;
         flex-wrap: wrap;
+
         input {
             border: none;
             border-bottom-color: black;
@@ -24,15 +25,18 @@
             box-sizing: content-box;
             width: 360px;
         }
+
         input:hover,
         input:focus {
             font-weight: 700;
             color: black;
         }
+
         .inputMessage {
             width: 1200px;
             margin-top: 125px;
         }
+
         .pMessage {
             font-size: 16px;
             margin-top: 20px;
@@ -42,6 +46,7 @@
             font-size: 1.6rem;
             color: rgba($color: #333333, $alpha: 0.7);
         }
+
         button {
             border: none;
             background-color: transparent;
@@ -75,4 +80,33 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
+}
+
+@media (max-width: 800px) {
+    .contactUsPageBanner h2 {
+        font-size: 4rem;
+        padding-top: 150px;
+    }
+.contactUsPageContactDetails ul {
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    li {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 4%;
+        height: auto;
+        align-items: center;
+    }
+    .middleBorder {
+        padding-left: 0px;
+        padding-right: 0px;
+        border-left: none;
+        border-right: none;
+        align-items: center;
+        height: auto;
+    }
+}
+
 }
