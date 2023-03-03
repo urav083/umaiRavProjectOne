@@ -122,6 +122,15 @@
             }
         }
     }
+
+    .sectionFive .dropUsALine {
+        h2 {
+            text-align: center;
+        }
+        p {
+            width: 85%;
+        }
+    }
 }
 
 @media (max-width: 800px) {

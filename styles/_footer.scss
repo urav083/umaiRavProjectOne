@@ -135,6 +135,7 @@
     .empty {
         height: 100px;
     }
+
     .sectionSixDiv {
         display: flex;
         flex-direction: column;
@@ -146,6 +147,7 @@
             h3 {
                 text-align: center;
             }
+
             nav {
                 ul {
                     display: flex;
@@ -172,6 +174,7 @@
 
         .twitterWidget {
             text-align: left;
+
             h3 {
                 text-align: center;
             }
@@ -218,4 +221,33 @@
         }
     }
 
+}
+
+@media (max-width: 480px) {
+    .sectionFour h2 {
+        margin: 35px;
+    }
+    .sectionThree .sectionThreeDivOne ul {
+        margin-left: 0%;
+        margin-top: 35px;
+        width: 100%;
+
+        li {
+            margin-bottom: 15px;
+            margin-left: 0;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .featureItemText {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 4%;
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
 }
