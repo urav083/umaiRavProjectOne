@@ -81,6 +81,13 @@
         top: 55%;
         right: 15%;
     }
+        .sectionTwoPartTwo .slider .slide {
+            height: 270px;
+        }
+                .sectionTwoPartTwo .slider {
+                    max-width: 270px;
+                    height: 280px;
+                }
 }
 
 @media (max-width: 800px) {
@@ -94,6 +101,8 @@
 .carouselButtons {
     display: flex;
     justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
     .btn-next {
         order: 2;
         margin-left: 35%;

@@ -166,6 +166,7 @@
                     margin-left: 5px;
                     margin-bottom: 40px;
                     display: flex;
+                    width: 100%;
 
                     .icon {
                         margin: 0 20px;
@@ -213,4 +214,14 @@
         }
     }
 
+}
+
+@media (max-width: 480px) {
+    .sectionThree .sectionThreeDivOne ul li {
+            margin-bottom: 20px;
+        }
+    .wrapper2 {
+        width: 80%;
+        margin-bottom: 5%;
+    }
 }
